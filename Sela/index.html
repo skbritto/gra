@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Sela Kay Britton</title>
+    <link rel="stylesheet" href="sela-final.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+
+<body>
+<div id="wrapper">
+  <div class="navbar">
+      <div id="right-nav" class="navbar">
+            <div class="navbar"><a href="index.html">Home</a></div>
+            <div class="navbar"><a href="About.html">About</a></div>
+            <div class="navbar"><a href="#project-container">Projects</a></div>
+            <div class="navbar"><a href="contact.html">Contact</a></div>
+      </div><!--closed navbar links logo-->
+  </div>
+  <div id="toggle-menu">
+  </div><!--closed navbar-->
+<img id="sela-logo" src="image/LOGO3.jpg" alt="sela logo">
+  <img id="bg" src="image/bg-01.jpg">
+  <img id="glitch" src="image/glitch-01.png">
+  <img id="glitch2" src="image/glitch-01.png">
+
+
+<!--end of feature section-->
+
+  <div id="project-container" class="wrapper">
+    <h1>PROJECTS</h1>
+
+  <div class="your-class">
+    <div class="slider-images"><img src="image/01.jpg" alt="PLP Basic Exercises"></div>
+    <div class="slider-images"><img src="image/02.jpg" alt="PLP Symbol Project"></div>
+    <div class="slider-images"><img src="image/03.jpg" alt="PLP Connections"></div>
+    <div class="slider-images"><img src="image/04.jpg" alt="H Letterform"></div>
+    <div class="slider-images"><img src="image/05.jpg" alt="H Composition"></div>
+    <div class="slider-images"><img src="image/06.jpg" alt="Additional Material"></div>
+  </div>
+  </div>
+
+
+  <div id= "feature-container">
+    <div id="feature-section" class="project-float">
+      <h2> 06.27.19</h2>
+      <img id="x-logo" src="image/FINAL X LOGO.png" alt="x logo">
+      <div class="learn-more"><a href="projectpage.html"> LEARN MORE </a></div>
+    </div>
+    <div id="symbol-process" class="project-float">
+      <h3> SYMBOL PROJECT </h3>
+      <h4> MVCD 3+ SUMMER STUDIO </h4>
+      <img id="x-process" src="image/symbol process.png" alt="x logo process">
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript">
+
+           $(document).ready(function(){
+
+             $('.your-class').slick({
+
+               dots: true,
+               arrows: true,
+               autoplay: false,
+               autoplaySpeed: 2000,
+               infinite: true,
+               slidesToShow: 2,
+               slidesToScroll: 2
+              });
+              });
+  </script>
+  <!--end of about slider-->
+  <div id="movie-container">
+    <video class="animation" width="500px" controls>Your browser does not support the &lt;video&gt; tag.
+    <source src="image/FINALANIM.mp4" />
+    </video>
+
+    <div id="animation-text">
+      <h2> 07.08.19</h2>
+      <div class="movie-text">
+      <p style="text-align:center">Creating an interesting and dynamic<br>sequence
+        through animating simple lines</p></div>
+
+      <div class="learn-more"><a href="#"> LEARN MORE </a></div>
+    </div>
+  </div>
+<!--end of animation-->
+
+
+  <div class="footer">
+    <div class="social-icons-footer">
+      <img id="instagram-footer" src="image/instagram-icon.png">
+      <img id="linked-in-footer" src="image/linked-in-icon.png">
+      <img id="facebook-footer" src="image/facebook-icon.png">
+      <img id="twitter-footer" src="image/twitter-icon.png">
+    </div>
+    <div id="footer-square">
+    <img id="sela-logo-footer" src="image/whitelogo.png" alt="sela logo"></div>
+
+  </div>
+</div>
+</body>
+
+</html>
