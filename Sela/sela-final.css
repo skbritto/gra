@@ -1,0 +1,258 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0 auto;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#wrapper{
+  width: 1440px;
+  overflow: hidden;
+}
+a:hover{
+  color: #480808 !important;
+  transition-timing-function: ease;
+  transition-duration: .5s;
+}
+
+a:visited{
+  color: black;
+}
+
+.navbar{
+  height: 40px;
+  background-color: #FFFFFF;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 2px;
+}
+
+#sela-logo{
+  position: absolute;
+  width:550px;
+  margin-left: 550px;
+  margin-top: 250px;
+}
+#bg{
+  height:500px;
+}
+#right-nav{
+  position:fixed;
+  z-index:10;
+  top: 0px;
+  margin-left: 1350px;
+  padding-right: 50px;
+  font-family: 'Lato';
+  padding-top: 15px;
+  background-color: white;
+  }
+
+
+.container {
+  width: 100%;
+  height: 650px;
+  padding-top: 140px;
+}
+
+.square{
+    width: 900px;
+    height: 600px;
+    Background-color: #000000;
+}
+
+.about-me{
+  padding-top: 10px;
+
+}
+#glitch{
+  position: absolute;
+  width:500px;
+  margin-top: -10px;
+  margin-left: 300px;
+}
+#glitch2{
+  position: absolute;
+  width:500px;
+  margin-top: -50px;
+  margin-left: 800px;
+}
+.text-block {
+  position: absolute;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 20px;
+}
+.movie-text{
+  font-family: 'Montserrat', sans-serif;
+  padding-right: 150px;
+}
+
+h1 {
+  color: black;
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: white;
+  font-size: 60px;
+  padding-left: 30px;
+  padding-top: 20px;
+  border-bottom: 2px white solid;
+  width: 350px;
+}
+
+.selfie{
+  position: relative;
+  max-width: 300px;
+  max-height: 350px;
+  padding-left: 700px;
+  margin-top: -550px;
+
+}
+.feature{
+  margin-top: 380px;
+  padding-left: 20px
+}
+h4{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 200px;
+  font-weight: 400;
+  }
+
+.learn-more{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 170px;
+  padding-top: 50px;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  padding-left: 80px;
+}
+h2 {
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: black;
+  font-size: 70px;
+  padding-left: 77px;
+}
+
+.your-class{
+  width: 800px;
+  top:500px;
+  padding-top: 50px;
+  margin:0 auto;
+}
+
+.wrapper{
+  width: 1330px;
+  height: 800px;
+  margin-top: 200px;
+  display: block;
+  background-color: #000000;
+}
+#feature-container{
+  height: 500px;
+  position: relative;
+  display: block;
+}
+.project-float{
+  width: 600px;
+  background-color: white;
+  float: left;
+}
+#symbol-process{
+  padding-left: 100px;
+  padding-top: 70px;
+}
+#feature-section{
+  padding-left: 50px;
+}
+
+#x-logo{
+  padding-left: 45px;
+}
+#x-process{
+  padding-left: 10px;
+}
+
+}
+#movie-container{
+  width: 100%
+}
+.animation{
+  margin-left: 200px;
+}
+#animation-text{
+  width: 600px;
+  background-color: white;
+  float: right;
+}
+
+.footer{
+  width: 100%;
+  height: 300px;
+}
+#footer-square{
+  width: 1448px;
+  height: 300px;
+  background-color: #000000;
+  margin-top: 200px;
+}
+#sela-logo-footer{
+  margin-left: 520px;
+  margin-top:45px;
+}
+
+.social-icons{
+  padding-left: 30px;
+}
+
+#instagram{
+  padding-right: 10px;
+  width:30px;
+}
+#facebook{
+  padding-right: 10px;
+  width:30px;
+}
+#linked-in{
+  padding-right: 10px;
+  width:30px;
+}
+#twitter{
+  padding-right: 10px;
+  width:30px;
+}
+
+.social-icons-footer{
+margin-top: 230px;
+position: absolute;
+margin-left: 605px
+
+}
+
+#instagram-footer{
+  padding-right: 20px;
+  width:30px;
+}
+#facebook-footer{
+  padding-right: 25px;
+  width:30px;
+}
+#linked-in-footer{
+  padding-right: 25px;
+  width:30px;
+}
+#twitter-footer{
+  padding-right: 25px;
+  width:30px;
+}
