@@ -1,0 +1,72 @@
+body{
+  margin: 0 auto;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+#wrapper{
+  margin-top: 130px;
+  margin-left: 25px;
+  margin-right: 55px;
+}
+#sela-logo{
+  width:300px;
+
+}
+.navbar{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 15px;
+  color: #000000;
+  font-family: 'Lato';
+  font-weight: 300;
+  position: fixed;
+  top: 0;
+}
+.nav-groups{
+}
+#right-nav{
+  margin-left: auto;
+  padding-right: 50px;
+}
+
+#logo{
+  padding-right: 150px;
+  font-weight: 400;
+}
+.navbar-links{
+  padding-right: 50px;
+  position: relative;
+  top: 15px;
+}
+
+.fa-bars{
+  font-size: 30px;
+  top: -5px;
+  position: relative;
+  z-index: 4;
+}
+
+#hamburger-icon{
+  padding-right: 10px;
+}
+
+#toggle-menu{
+display: block;
+}
+
+.left-links-links{
+  display: flex;
+  padding-left: 10px;
+}
+
+.right-links-links{
+
+  padding-right: 10px
+}
