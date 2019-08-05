@@ -1,0 +1,25 @@
+<div class="your-class">
+  <div><img id="01" src="image/01.jpg"</div>
+  <div><img id="02" src="image/02.jpg"</div>
+  <div><img id="03" src="image/03.jpg"</div>
+  <div><img id="04" src="image/04.jpg"</div>
+  <div><img id="03" src="image/05.jpg"</div>
+  <div><img id="06" src="image/06.jpg"</div>
+</div>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.your-class').slick({
+      dots: true,
+      arrows: true,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 2,
+    });
+  });
+</script>
