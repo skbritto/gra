@@ -35,11 +35,12 @@ a:visited{
 }
 
 #sela-logo{
-  position: absolute;
   width:550px;
-  margin-left: 550px;
-  margin-top: 250px;
+  margin-left: 430px;
+  margin-top: 210px;
+  margin-bottom:100px;
 }
+
 #bg{
   height:500px;
 }
